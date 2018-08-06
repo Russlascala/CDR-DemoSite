@@ -9,7 +9,7 @@
 <link rel='stylesheet prefetch' href='http://www.justinaguilar.com/animations/css/animations.css'>
 <link rel="stylesheet" href="css/style2.css">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/nice-select.css">
+<!-- <link rel="stylesheet" href="css/nice-select.css"> -->
 <meta 
      name='viewport' 
      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
@@ -95,23 +95,6 @@ document.getElementById("active4").style.color = "gray";
 </script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-<script src="js/jquery.nice-select.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function() {
-  $('select').niceSelect();
-});
-
-
-</script>
-
-
-<script type="text/javascript">
-$('select').on('change', function(){
-    $("form").validate().element('select');
-});
-</script>
-
 
 </head>
 <body>
@@ -189,11 +172,11 @@ if you qualify to substantially<br class="hidden-xs">
       </div>
       <div class=" col-sm-12">
         <select class="options"  required  >
-          <option data-display="Best Time to Contact" value="" ></option>
-          <option value="">Immediately</option>
-          <option value="">Morning</option>
-          <option value="">Afternoon</option>
-          <option value="">Night</option>
+          <option  selected="true" disabled="disabled" >Best Time to Contact</option>
+          <option value="Immediately">Immediately</option>
+          <option value="Morning">Morning</option>
+          <option value="Afternoon">Afternoon</option>
+          <option value="Night">Night</option>
         </select>
       </div>
       <!-- no previous button -->
@@ -261,9 +244,9 @@ if you qualify to substantially<br class="hidden-xs">
       <div  style=" text-align:center !important; font-size:12px; color:#333;  padding:0 0%; "> <br>
         <br>
         <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')"
-    target="_blank">Privacy Policy</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')"
-    target="_blank">Terms and Conditions</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=500,height=600')"
-    target="_blank">Unsubscribe</a>
+        target="_blank">Privacy Policy</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')"
+        target="_blank">Terms and Conditions</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=500,height=600')"
+        target="_blank">Unsubscribe</a>
         <p> &copy;&nbsp;
           <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>
           &nbsp; ConcordDebtRelief.com. All Rights Reserved. <br>
