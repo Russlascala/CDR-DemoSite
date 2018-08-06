@@ -350,6 +350,7 @@ a.call {
 #next_btn1, #next_btn2, #next_btn3 {
 	background: rgba(255,221,108,1.00) !important;
 	display:inline;
+	float: right;
 	 
 	
 }
